@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+client/.env
+client/.env.production
+server/.env
+
+# Build outputs - Render builds this fresh on deploy
+dist/
+build/
+.next/
+server/public/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# Uploads
+server/uploads/
+uploads/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Development
+.cache/
+
+# misc
+.history/
